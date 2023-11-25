@@ -1,6 +1,6 @@
 # TitanticDataset
 
-Our project’s background revolves around the sinking of the Titanic. There were not enough lifeboats onboard, so over half of the passengers and crew members did not survive. However, data shows that depending on certain characteristics of the passengers, there are correlations between these characteristics and their chance of survival.
+Our project’s background revolves around the sinking of the Titanic. There were not enough lifeboats onboard, so over half of the passengers and crew members did not survive. However, data shows that depending on certain characteristics of the passengers, there are correlations between these characteristics and their chance of survival. We attempted to discover patterns through machine learning!
 
 Our primary approach for doing this project was first looking at the data to do some basic data cleansing tasks. We wanted to see if there were any null or missing values and replace them with the mean/mode of the data set. We then wanted to implement one hot encoding which would allow us to factor in our qualitative data points such as Embarked. Since we had some quantitative data as well, such as age and fare, we implemented a bracket system which placed different numerical ranges into different categories. The purpose of this was to avoid creating an unnecessarily long encoding for each specific fare price or age. After one hot encoding, we ran it through a logistic regression to determine the binary outputs of our test data.
 
